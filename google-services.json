@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "6500222899",
+    "project_id": "messages-5e74d",
+    "storage_bucket": "messages-5e74d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6500222899:android:9c44e6984db19f44766dc6",
+        "android_client_info": {
+          "package_name": "hafid.android.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6500222899-6mnv4pcem2og33popamqkc8qah2judg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hafid.android.com",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "6500222899-09441fomi0vqo46a0ttqm91iputdmmh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPn_D9TWIV31m0063fMTKNAR9fkUB24fw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6500222899-09441fomi0vqo46a0ttqm91iputdmmh2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "6500222899-jl0qj78etu6ibrs85jjat4pu7o9mm3lb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "hafid.android.com",
+                "app_store_id": "1234567890"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
