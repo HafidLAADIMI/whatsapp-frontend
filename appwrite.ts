@@ -1,6 +1,6 @@
 import { Alert } from "react-native";
 import { Client, Account, ID } from "react-native-appwrite";
-
+import { router } from "expo-router";
 const client = new Client()
     .setProject('670d97c600243027c8ea')
     .setPlatform('hafid.whatsapp.app');
@@ -18,7 +18,8 @@ export const sendOtp = async (phone: string) => {
     return userId;
   } catch (error) {
     console.log(error);
-    
+    Alert.alert("Something went wrong in creating a the phone token ")
+    router.back();
   }
 };
 
@@ -32,6 +33,7 @@ export const verifyOtp = async (userId: string, code: string) => {
     return session;
   } catch (error) {
     console.log(error);
-    // Alert.alert("Something went in verifyOtp");
+    Alert.alert("Something went in verifying the phone number");
+    router.back();
   }
 };

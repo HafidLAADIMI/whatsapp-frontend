@@ -64,92 +64,36 @@ export const chatListInfo = [
   },
   {
     id: 2,
-    name: "Hafid",
+    name: "AbdErrahmane",
     message: "Hey",
     time: "10:00",
     image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://pics.craiyon.com/2023-10-25/b65f72d6d11a48c1bc560059cc36e31f.webp",
   },
   {
     id: 3,
-    name: "Hafid",
+    name: "Hicham",
     message: "Hey",
     time: "10:00",
     image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUTZEXczxjynDLA7ozqCRaYHmiCAJw8AGNFmvbu3mUuYRVvWsWJYtKl0pfnpzliGVxUSQ&usqp=CAU",
   },
 
   {
     id: 4,
-    name: "Hafid",
+    name: "Jamal",
     message: "Hey",
     time: "10:00",
     image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://play-lh.googleusercontent.com/bZFgLx_6xeI8Vhoj7m88uoDNrOA3afmqLC8D6lZBZG5uF1XBTDCsLmVSTK4ub0y75tU=w526-h296-rw",
   },
   {
     id: 5,
-    name: "Hafid",
-    message: "Hey",
+    name: "Mustapha",
+    message: "ahlan",
     time: "10:00",
     image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: 6,
-    name: "Hafid",
-    message: "Hey",
-    time: "10:00",
-    image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: 7,
-    name: "Hafid",
-    message: "Hey",
-    time: "10:00",
-    image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: 8,
-    name: "Hafid",
-    message: "Hey",
-    time: "10:00",
-    image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: 10,
-    name: "Hafid",
-    message: "Hey",
-    time: "10:00",
-    image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: 11,
-    name: "Hafid",
-    message: "Hey",
-    time: "10:00",
-    image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: 12,
-    name: "Hafid",
-    message: "Hey",
-    time: "10:00",
-    image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  },
-  {
-    id: 13,
-    name: "Hafid",
-    message: "Hey",
-    time: "10:00",
-    image:
-      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYJ-C-nwpFTYK7ELzvVSWqP785mgkPzLJCPQ&s",
   },
 ];
 export const stories = [

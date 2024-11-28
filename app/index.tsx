@@ -4,8 +4,9 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import welcome from "../public/images/welcome.png";
 import { router } from "expo-router";
+import {TextEncoder} from 'text-encoding';
 
-
+global.TextEncoder = TextEncoder;
 const Index = () => {
   return (
     <SafeAreaView className=" h-full w-full m-0 p-0 bg-[#030f04] flex items-center justify-center">
