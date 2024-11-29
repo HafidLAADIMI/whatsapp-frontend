@@ -57,7 +57,7 @@ const addUser = async (formData: FormData) => {
   try {
    console.log(formData);
     await axios
-      .post("http://192.168.137.1:8080/user/add", formData, {
+      .post("http://172.16.228.52:8080/user/add", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
           "Access-Control-Allow-Origin": "*",

@@ -33,7 +33,6 @@ export const verifyOtp = async (userId: string, code: string) => {
     return session;
   } catch (error) {
     console.log(error);
-    Alert.alert("Something went in verifying the phone number");
     router.back();
   }
 };

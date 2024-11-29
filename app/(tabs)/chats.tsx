@@ -19,7 +19,7 @@ const Chats = () => {
   const {userId}=useUserContext();
   const getAllUsers = async () => {
     try {
-      const response = await axios.get("http://192.168.137.1:8080/user/getAll");
+      const response = await axios.get("http://172.16.228.52:8080/user/getAll");
       console.log(response.data);
       setData(response.data);
       console.log({ data });

@@ -15,6 +15,7 @@ import Fontisto from "@expo/vector-icons/Fontisto";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import SettingsItem from "@/components/SettingsItem";
 import { Stack } from "expo-router";
+import { useUserContext } from "@/UserContext";
 
 const settingsItems = [
   {
@@ -90,7 +91,10 @@ const settingsItems = [
     description: "Create,edit ,profile ,remove",
   },
 ];
+
+
 const Settings = () => {
+  const {username,profile}=useUserContext();
   return (
     <SafeAreaView className="flex-1 bg-[#030f04]">
       {/* <Stack.Screen
@@ -104,13 +108,13 @@ const Settings = () => {
             <View className="flex flex-row items-center gap-3">
               <Image
                 source={{
-                  uri: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                  uri: profile,
                 }}
                 className="h-[60px] w-[60px] rounded-full"
               />
               <View className="flex flex-col justify-center ">
                 <Text className="text-white font-bold text-lg">
-                  ALMUKHADRAM 😎
+                  {username}
                 </Text>
                 <Text className="text-slate-400 ">Active</Text>
               </View>
